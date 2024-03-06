@@ -1,63 +1,66 @@
-
 .timer {
-    font-size: 2rem;
-    background-color: #973632;
-    width: 650px;
-    height: 1130px;
-    color: #ffffff;
-    border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-size: 2rem;
+  background-color: #973632;
+  width: 650px;
+  height: 1130px;
+  color: #ffffff;
+  border: 2px solid;
   border-radius: 4px;
-   }
-   .tub__box {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
 }
-.button_tub
-{
-    background-color: #c53737;
-    margin-top: 30px;
+.tub__box {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.button_tub {
+  background-color: #c53737;
+  margin-top: 30px;
   text-align: center;
-  
+
   color: #ffffff;
   border: 2px solid;
   border-radius: 1px;
 }
-.button_time
-{
-    background-color: #c53737;
-    margin-top: 30px;
+.button_box {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.button_time {
+  background-color: #c53737;
   text-align: center;
   border: 2px solid;
   border-radius: 1px;
   color: #ffffff;
 }
-.setTime
-{
-    color: #ffffff;
-    font-family: courier;
-    font-size: 160%;
+.setTime {
+  color: #ffffff;
+  font-family: courier;
+  font-size: 160%;
 }
-.addText
-{
-    width: 350px;
+.addText {
+  display: block;
+  width: 350px;
 }
 h3 {
-    color: #fffdfd;
-    font-size: 44px;
+  color: #fffdfd;
+  font-size: 44px;
 }
-.box
-{
-    display: flex;
+.box {
+  display: flex;
 }
-.taskList
-{
-    width: 200px;
-    color: #ffffff;
-    background-color: #64421a;
-    width: 350px;
-    height: 500px;
-    font-size: 26px;
-    border: 2px solid;
+.taskList {
+  width: 200px;
+  color: #ffffff;
+  background-color: #64421a;
+  width: 350px;
+  height: 500px;
+  font-size: 26px;
+  border: 2px solid;
   border-radius: 1px;
 }
